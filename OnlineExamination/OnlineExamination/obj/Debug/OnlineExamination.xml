@@ -1,0 +1,641 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+OnlineExamination
+</name>
+</assembly>
+<members>
+<member name="T:OnlineExamination.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:OnlineExamination.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:OnlineExamination.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:OnlineExamination.My.Resources.Resources.dashboard">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OnlineExamination.My.Resources.Resources.deletepic">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OnlineExamination.My.Resources.Resources.Edit2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OnlineExamination.My.Resources.Resources.Login_BG">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OnlineExamination.My.Resources.Resources.new_index_banner_logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OnlineExamination.My.Resources.Resources.user_avatar_with_check_mark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSetTableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(OnlineExamination.OnlineExamDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(OnlineExamination.OnlineExamDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(OnlineExamination.OnlineExamDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSetTableAdapters.TableAdapterManager.UpdateAll(OnlineExamination.OnlineExamDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet1.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet1.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet1.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet1TableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(OnlineExamination.OnlineExamDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(OnlineExamination.OnlineExamDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(OnlineExamination.OnlineExamDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet1TableAdapters.TableAdapterManager.UpdateAll(OnlineExamination.OnlineExamDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet2.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet2.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet2.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet2TableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(OnlineExamination.OnlineExamDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(OnlineExamination.OnlineExamDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(OnlineExamination.OnlineExamDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet2TableAdapters.TableAdapterManager.UpdateAll(OnlineExamination.OnlineExamDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet3.tbl_studentanswersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet3.tbl_studentanswersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet3.tbl_studentanswersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet3TableAdapters.tbl_studentanswersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(OnlineExamination.OnlineExamDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(OnlineExamination.OnlineExamDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(OnlineExamination.OnlineExamDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet3TableAdapters.TableAdapterManager.UpdateAll(OnlineExamination.OnlineExamDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet4.tbl_resultDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet4.tbl_resultRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet4.tbl_resultRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet4TableAdapters.tbl_resultTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(OnlineExamination.OnlineExamDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(OnlineExamination.OnlineExamDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(OnlineExamination.OnlineExamDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet4TableAdapters.TableAdapterManager.UpdateAll(OnlineExamination.OnlineExamDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet5.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet5.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet5.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet5TableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(OnlineExamination.OnlineExamDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(OnlineExamination.OnlineExamDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(OnlineExamination.OnlineExamDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet5TableAdapters.TableAdapterManager.UpdateAll(OnlineExamination.OnlineExamDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet6.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet6.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet6.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet6TableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(OnlineExamination.OnlineExamDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(OnlineExamination.OnlineExamDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(OnlineExamination.OnlineExamDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet6TableAdapters.TableAdapterManager.UpdateAll(OnlineExamination.OnlineExamDataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet7">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet7.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet7.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet7.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet7TableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet7TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(OnlineExamination.OnlineExamDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(OnlineExamination.OnlineExamDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(OnlineExamination.OnlineExamDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet7TableAdapters.TableAdapterManager.UpdateAll(OnlineExamination.OnlineExamDataSet7)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet8">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet8.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet8.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet8.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet8TableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet8TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(OnlineExamination.OnlineExamDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(OnlineExamination.OnlineExamDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(OnlineExamination.OnlineExamDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:OnlineExamination.OnlineExamDataSet8TableAdapters.TableAdapterManager.UpdateAll(OnlineExamination.OnlineExamDataSet8)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:OnlineExamination.OnlineExamDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
